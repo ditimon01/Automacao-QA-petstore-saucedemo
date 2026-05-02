@@ -1,0 +1,7 @@
+__pycache__/
+.pytest_cache/
+*.log
+venv/
+.env
+api_tests/report.html
+web_tests/screenshots/
