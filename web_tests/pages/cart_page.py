@@ -12,5 +12,5 @@ class CartPage:
     def checkout(self):
         wait = WebDriverWait(self.driver, 10)
 
-        btn = wait.until(EC.element_to_be_clickable(self.CHECKOUT_BUTTON))
+        btn = wait.until(EC.element_to_be_clickable(self.CHECKOUT))
         btn.click()
