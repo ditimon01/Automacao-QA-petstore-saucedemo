@@ -33,8 +33,12 @@ Projeto acadêmico desenvolvido para automatizar teste de API e Web, aplicando b
 ## Estrutura do projeto
     
     ├── /api-tests
+        ├── /client
+        ├── /services
+        ├── /tests
     ├── /web-tests
     ├── /.github/workflows
+    ├── requirements.txt
     └── README.md
 
 
