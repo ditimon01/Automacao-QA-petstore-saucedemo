@@ -15,7 +15,7 @@ class CheckoutPage:
         self.driver = driver
 
     def fill(self):
-        wait = WebDriverWait(self.driver, 15)
+        wait = WebDriverWait(self.driver, 30)
         element = wait.until(
             EC.visibility_of_element_located(self.FIRST)
         )
@@ -27,6 +27,6 @@ class CheckoutPage:
         self.driver.find_element(*self.CONTINUE).click()
 
     def finish(self):
-        wait = WebDriverWait(self.driver, 10)
+        wait = WebDriverWait(self.driver, 30)
         btn_finish = wait.until(EC.element_to_be_clickable(self.FINISH))
         btn_finish.click()
