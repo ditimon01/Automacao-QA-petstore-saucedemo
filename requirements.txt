@@ -2,3 +2,5 @@ pytest==9.0.3
 requests==2.33.1
 pytest-html
 python-dotenv
+selenium==4.43.0
+webdriver-manager==4.0.2
